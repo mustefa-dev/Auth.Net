@@ -7,6 +7,7 @@ using Microsoft.IdentityModel.Tokens;
 
 namespace Auth.Data{
     public class AuthRepository : IAuthRepository{
+        
         private readonly DataContext _context;
         private readonly IConfiguration _configuration;
 
